@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+h2 {
+    padding-top: 40px;
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* .container {
+    margin-top: 20px; /* Yeni div'ler arasında boşluk bırak */
+/* */ 
+#inputs{
+    display: flex;
+    justify-content: center; /* Yatayda ortalamak için */
+    align-items: center; /* Dikeyde ortalamak için */
+}
+#Inputs input{
+    width: 500px;
+    height: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+#todoBtn{
+    border: 3px solid blue;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 8px;
+    width: 100px;
+    background-color: blue;
+}
+#todoBtn p{
+    color: white;
+    font-size: 20px;
+}
+#registerLink{
+    border: 3px solid blue;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 8px;
+    width: 400px;
+    background-color: blue;
+    text-align: center;
+}
+#registerLink a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+/* Css for TodoApp */
+
+#containerTodo{
+    display: block;
+}
+#containerTodo #firstRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.firstRowDiv{
+    display: flex;
+    align-items: center; /* İçerikleri ortalar */
+    gap: 30px; 
+    position: relative;
+
+}
+input{
+    width: 500px;
+    height: 25px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 18px;
+}
+button{
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.firstRowDiv i{
+    position: absolute;
+    top: 50%;
+    right: 10px;         /* Sağ tarafta biraz boşluk bırakıyoruz */
+    transform: translateY(-50%); /* Dikeyde tam ortalamak için */
+    cursor: pointer;
+}
+.firstRowDiv input{
+    position: relative;
+    padding-right: 30px
+}

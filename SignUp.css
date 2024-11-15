@@ -1,0 +1,48 @@
+#containerSignUp{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+h2{
+    padding-top: 40px;
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+}
+#inputs{
+    display: flex;
+    justify-content: center; /* Yatayda ortalamak için */
+    align-items: center; /* Dikeyde ortalamak için */
+}
+#Inputs input{
+    width: 500px;
+    height: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+#todoBtnSign{
+    border: 3px solid blue;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 8px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+#todoBtnSignInLogin{
+    border: 3px solid blue;
+    height: 30px;
+    border-radius: 8px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
